@@ -6,11 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "deploy": "deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "execa": "latest",
     "vue": "^2.6.11"
   },
   "devDependencies": {
